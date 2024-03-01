@@ -1,0 +1,351 @@
+@media (max-width: 1200px)
+{
+.third-item1, .third-item2, .third-item3, .third-item4, .third-item5, .third-item6 {
+    width: 280px;
+    height: 280px;
+}
+}
+@media (max-width: 992px) {
+  .menu .menu-link {
+    font-size: 12px;
+  }
+  .menu .menu-item {
+    padding: 0 5px;
+  }
+  .first .subheader-text {
+    font-size: 13px;
+  }
+  .first .subheader-number {
+    font-size: 20px;
+  }
+  .first .first-header, .first-header span {
+    font-size: 34px;
+  }
+  .first .first-text {
+    font-size: 14px;
+    margin-bottom: 80px;
+  }
+  .subhead1{
+    margin-right: 100px;
+  }
+  .subhead1 img {
+    width: 100%;
+  }
+  .second{
+    height: 1500px;
+  }
+  .second-text2{
+    font-size: 30px;
+  }
+  .second-row {
+    flex-direction: column;
+  }
+  .second-row img{
+    display: block;
+    margin: 0 auto;
+  }
+  .second-item{
+    padding: 10px 19px;  
+  }
+  .third{
+    height: 750px;
+  }
+  .third-text2{
+    font-size: 30px;
+  }
+  .third-item1, .third-item2, .third-item3, .third-item4, .third-item5, .third-item6 {
+    width: 220px;
+    height: 220px;
+}
+.third-name{
+    font-size: 16px;
+}
+  .fourth{
+      height: 760px;
+  }
+  .fourth-text2{
+      font-size: 30px;
+  }
+  .fourth img{
+    width: 100%;
+  }
+  .fifth-text2{
+    font-size: 30px;
+  }
+  .sixth{
+    height: 550px;
+  }
+  .sixth-text2{
+    font-size: 30px;
+  }
+  footer img{
+    width: 100%;
+  }
+  footer .descr{
+    padding: 0 10px;  
+  }
+}
+@media (max-width: 768px)
+{
+    .menu{
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px 15px;  
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s all;
+    }
+    .menu_active{
+        left: 0;
+    }
+    .menu .menu-item{
+    margin: 10px 0;
+        padding-right: 0;
+        border: none;
+    }
+    .menu .menu-link{
+        font-size: 20px;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 15px;
+    }
+    .hamburger span{
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 3px;
+        transition: 0.5s all;
+    }
+    .hamburger_active span:nth-child(1){
+        margin-bottom: -2px;
+        transform:translateY(3px) rotate(-45deg); 
+    }
+    .hamburger_active span:nth-child(2){
+        margin-bottom: -2px;
+        display: none;
+        }
+    .hamburger_active span:nth-child(3){
+        margin-bottom: -2px;
+        transform:translateY(3px) rotate(45deg);
+    }
+  .first .official{
+    font-size: 11px;
+  }
+  .first .first-header, .first-header span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .first .subheader-number {
+    font-size: 15px;
+  }
+  .first .subheader-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;  
+  }
+  .first .subhead{
+      margin: 15px 7px;
+  }
+  .first .subhead1{
+      margin-right: 50px;
+      padding-right: 20px;
+  }
+  .second{
+    height: 2300px;
+  }
+  .second-text2, .third-text2, .fourth-text2, .fifth-text2 {
+    font-size: 28px;
+  }
+  .second .container{
+    flex-direction: column;
+  }
+  .second-item{
+    padding: 5px 50px;
+  }
+  .third{
+    height: 970px;
+  }
+  .third .container{
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .third-row{
+    flex-direction: column;  
+  }
+  .third-item1, .third-item2, .third-item3, .third-item4, .third-item5, .third-item6 {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 30px;
+}
+.fourth{
+  height: 620px;
+}
+.fifth{
+  height: 1000px;
+}
+.fifth-text{
+    margin-top: 25px;
+}
+.fifth .title, .fifth .title-one{
+    font-size: 16px;    
+}
+.fifth ul{
+    font-size: 15px;    
+}
+.fifth .list, .fifth .list2{
+    margin: 0 5px;    
+}
+.sixth{
+  height: 400px;
+}
+.sixth-text{
+    margin-top: 10px;
+}
+.sixth-text2{
+    margin: 18px 0 0 0;
+    font-size: 28px;
+}
+.sixth-text3{
+    font-size: 14px;
+}
+.sixth a{
+    font-size: 14px;
+}
+footer{
+  height: 240px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-social{
+justify-content: space-around;
+  margin: 0 auto;
+}
+.footer-social img{
+  width: 110%;
+  margin: 7px 0 0 0;
+}
+.descr .divider{   
+margin: 0 auto;
+margin-top: 5px; 
+margin-bottom: 15px;
+}
+footer img{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.footer-ref{
+    margin: 10px 0;
+}
+}
+@media (max-width: 576px)
+{
+ .first{
+     height: 700px;
+     width: 415px;
+ }
+ .first .container{
+  width: 415px;
+ }
+ .subheader-text, .official{
+   display: none;
+ }
+ .first .subhead1{
+  margin-top: 25px;
+   margin-right: 0px;
+ }
+ .xs-hidden{
+   display: none;
+ }
+.xs-visible{
+  display: block;
+}
+.first .subheader-number{
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  }
+  .first .subhead{
+    margin: 8px;
+  }
+  .first .first-header{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .first-header span{
+    font-size: 17px;
+  }
+  .first .first-text{
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  .menu-item{
+    text-align: center;
+  }
+  .second{
+    height: 2640px;
+  }
+  .second .container{
+    width: 415px;
+  }
+  .second-title{
+    width: 100%;
+    margin: 0 0 -10px 0;
+  }
+  .second-text2{
+    margin-top: 20px;
+  }
+  .third{
+    height: 1800px;
+  }
+  .third-title{
+    margin-left: 10px;
+  }
+  .third, .third .container{
+    width: 415px;
+  }
+  .third .container{
+    flex-direction: column;
+  }
+  .fourth, .fourth .container{
+    width: 415px;
+  }
+  .fifth{
+    height: 1280px;
+  }
+  .fifth, .fifth .container{
+    width: 415px;
+  }
+  .fifth-row{
+    flex-direction: column;
+  }
+  .sixth{
+    height: 315px;
+  }
+  .sixth, .sixth .container{
+    width: 415px;
+  }
+  .sixth-text2{
+    font-size: 20px;
+  }
+  .sixth-text3, .sixth a{
+    font-size: 12px;
+  }
+  footer{
+    width: 415px;
+  }
+}
